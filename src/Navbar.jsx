@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {Link, useMatch, useResolvedPath} from 'react-router-dom'
 
 export const Navbar = () => {
