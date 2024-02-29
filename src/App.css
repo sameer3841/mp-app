@@ -91,6 +91,7 @@
   max-width: 250px;
   max-height: 250px;
   height: auto;
+  border-radius: 30px;
 }
 
 .card--name > span,
@@ -100,12 +101,14 @@
 
 .main--card--container {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 500px;
+  
   justify-self: center;
+  
   
 }
 
@@ -125,4 +128,5 @@ button {
 .card--description{
   display: flex;
   width: 250px;
+
 }
