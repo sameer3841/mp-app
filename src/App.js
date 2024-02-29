@@ -1,8 +1,8 @@
 import './App.css';
 import { Navbar } from './Navbar';
-import {Home} from "./pages/Home"
-import {About} from "./pages/About"
-import {More} from "./pages/More"
+import { Home } from './pages/Home';
+import { About } from './pages/About';
+import { More } from './pages/More';
 import {Route, Routes} from 'react-router-dom'
 
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="more" element={<More/>}/>
         </Routes>
       </div>
-            
+          
     </div>
   );
 }

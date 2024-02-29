@@ -4,9 +4,9 @@ export default [{
         "about": "Hi! my name is Valery Louis, I am one of the group members for this project. 3 things I like to do: Code, Play soccer, Play music"
     },
     {
-        "name": "Sammeer Patel",
+        "name": "Sameer Patel",
         "image": "./img.jpg",
-        "about": "Hi! my name is Sammeer, I am one of the group members for this project. 3 things I like to do: Code, Play soccer, Play music" 
+        "about": "Hi! my name is Sameer, I am one of the group members for this project. 3 things I like to do: Code, Play soccer, Play music" 
     },
     {
         "name": "Brandon Brockett",
