@@ -38,10 +38,12 @@
 
 .navbar li.active {
   background-color: green;
+  border-radius: 5px;
 }
 
 .navbar li:hover {
   background-color: #777;
+  border-radius: 5px;
 }
 
 .container {
@@ -90,8 +92,9 @@
   width: 250px;
   max-width: 250px;
   max-height: 250px;
-  height: auto;
-  border-radius: 30px;
+  height: 250px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .card--name > span,
@@ -128,5 +131,5 @@ button {
 .card--description{
   display: flex;
   width: 250px;
-
+  padding:  10px;
 }
