@@ -1,38 +1,128 @@
-.App {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Adjusted alignment */
+  gap: 2rem;
+  padding: 0 1rem;
+  height: 80px;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  height: 100%;
+}
+
+.navbar li.active {
+  background-color: green;
+}
+
+.navbar li:hover {
+  background-color: #777;
+}
+
+.container {
+  margin: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about--container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about--section {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  width: 60%; /* Increased width */
+  padding: 40px; /* Increased padding */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  text-align: center; /* Center text */
+  min-width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about--header {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.card--container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 400px;
+  height: 450px;
+  overflow:scroll;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.card--image {
+  width: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--name > span,
+.card--description > span {
+  font-weight: bold;
+}
+
+.main--card--container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  justify-self: center;
+  
+}
+
+button {
+  height: 55px;
+}
+
+.meet-our-team{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.card--name{
+  margin-bottom: 10px;
+}
+
+.card--description{
+  display: flex;
+  width: 250px;
 }
