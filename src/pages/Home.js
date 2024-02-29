@@ -13,6 +13,7 @@ export const Home = () => {
       <p className='text para'>Throughout the course, we will be using this page to share our journey with you. We will provide detailed accounts of our progress, including our successes and challenges, and offer insights into our development process. </p>
     </div>
   </div>
+  
     
     
   )
