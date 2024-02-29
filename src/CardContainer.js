@@ -35,7 +35,7 @@ export const CardContainer = () => {
 
     function getPrevMember(){
         let temp = index;
-        if(temp < 0){
+        if(temp - 1 < 0){
             temp = data.length-1;
         } else  {
             temp = index - 1;
