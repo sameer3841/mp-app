@@ -7,6 +7,7 @@ import Valery from './images/Valery.jpg'
 import Ceasar from './images/Ceasar.jpg'
 import Sameer from './images/sameer.jpg'
 import Brandon from './images/brandon.jpg'
+import Danielson from './images/Danielson.jpg'
 import IMG from './images/img.jpg'
 
 
@@ -14,7 +15,7 @@ import IMG from './images/img.jpg'
 
 export const CardContainer = () => {
 
-    let img = [Valery, Sameer, Brandon, Ceasar, IMG, IMG ]
+    let img = [Valery, Sameer, Brandon, Ceasar, Danielson, IMG ]
 
     const [userData, setUserData] = useState();
     let [index, setIndex] = useState(0)
