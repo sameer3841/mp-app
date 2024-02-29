@@ -7,6 +7,7 @@ import Valery from './images/Valery.jpg'
 import Ceasar from './images/Ceasar.jpg'
 import Sameer from './images/sameer.jpg'
 import Brandon from './images/brandon.jpg'
+import Danielson from './images/Danielson.jpg'
 import IMG from './images/img.jpg'
 
 
@@ -14,11 +15,11 @@ import IMG from './images/img.jpg'
 
 export const CardContainer = () => {
 
-    let img = [Valery, Sameer, Brandon, Ceasar, IMG, IMG ]
+    let img = [Valery, Sameer, Brandon, Ceasar, Danielson, IMG ]
 
     const [userData, setUserData] = useState();
     let [index, setIndex] = useState(0)
-    let [image, setImage] = useState(Valery)
+    let [image, setImage] = useState(img[0])
     let [name, setName] = useState(data[0].name)
     let [about, setAbout] = useState(data[0].about)
 
@@ -27,10 +28,10 @@ export const CardContainer = () => {
     })
 
     function getNextMember(){
-        let temp = index + 1;
-        if(temp >= data.length){
-            temp = 0;
-        }
+        let temp = (index + 1) % data.length;
+        // if(temp >= data.length){
+        //     temp = 0;
+        // }
         setIndex(t => temp)
         changeCard();
     }
