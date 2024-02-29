@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   return (
     <nav className='navbar'>
-        <Link to="/" className="site-title">Site Name</Link>
+        <Link to="/" className="site-title">Blog</Link>
         <ul>
             <CustomLink to="/home">Home</CustomLink>
             <CustomLink to="/about">About</CustomLink>

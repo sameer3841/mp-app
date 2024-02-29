@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Navbar } from './Navbar';
 import { Home } from './pages/Home/Home';
@@ -18,7 +17,6 @@ function App() {
           <Route path="home" element={<Home/>}/>
           <Route path="about" element={<About/>}/>
           <Route path="more" element={<More/>}/>
-
         </Routes>
       </div>
           
