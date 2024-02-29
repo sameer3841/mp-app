@@ -1,7 +1,7 @@
 export default [{
         "name": "Valery Louis",
         "image": "./images/Valery.jpg",
-        "about": "Hi! my name is Valery Louis, I am one of the group members for this project. 3 things I like to do: Code, Play soccer, Play music"
+        "about": "Hi! my name is Valery Louis, I am one of the group members for this project. 3 things I like to do: Code, Play soccer, Play music."
     },
     {
         "name": "Sameer Patel",
@@ -11,12 +11,12 @@ export default [{
     {
         "name": "Brandon Brockett",
         "image": "./images/brandon.jpg",
-        "about": "Hi! my name is Brandon Brockett, I am one of the group members for this project. 3 things I like to do: Code, Cook, Play music" 
+        "about": "Hi! my name is Brandon Brockett, I am one of the group members for this project. 3 things I like to do: Code, Cook, Play music." 
     },
     {
         "name": "Ceasar Pereira",
         "image": "./images/Ceasar.jpg",
-        "about": "Hi! my name is Ceasar Pereira" 
+        "about": "Hi! my name is Ceasar Pereira, I am one of the group members for this project." 
     },
     {
         "name": "Danielson Adjocy",
@@ -26,6 +26,6 @@ export default [{
     {
         "name": "Christine Pierre Charles",
         "image": "./img.jpg",
-        "about": "Hi! my name is Christine Pierre Charles" 
+        "about": "Hi! my name is Christine Pierre Charles, I am one of the group members for this project." 
     },
 ];

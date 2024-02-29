@@ -29,17 +29,16 @@ export const CardContainer = () => {
 
     function getNextMember(){
         let temp = (index + 1) % data.length;
-        // if(temp >= data.length){
-        //     temp = 0;
-        // }
         setIndex(t => temp)
         changeCard();
     }
 
     function getPrevMember(){
-        let temp = index - 1;
+        let temp = index;
         if(temp < 0){
             temp = data.length-1;
+        } else  {
+            temp = index - 1;
         }
         setIndex(t => temp)
         changeCard();
