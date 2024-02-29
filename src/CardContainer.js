@@ -6,7 +6,7 @@ import right from './right2.png'
 import Valery from './images/Valery.jpg'
 import Ceasar from './images/Ceasar.jpg'
 import Sameer from './images/sameer.jpg'
-import Brandon from './images/brandon.jpg'
+import Brandon from './images/Brandon.jpg'
 import Danielson from './images/Danielson.jpg'
 import IMG from './images/img.jpg'
 
