@@ -6,7 +6,7 @@ export const Home = () => {
   return (    
   <div>
     <div>
-      <img src={require('../images/Picar.jpg')}/>
+      <img className='picarimg' src={require('../images/Picar.jpg')}/>
     <div className='containerHome'>
       <h1 className='text'>Welcome to our Mid Program project</h1>
       <p className='text para'> In this course, our group has been assigned the task of using our creativity and applying our programming skills to build a gadget using Arduino hardware and software. We aim to develop a unique and functional gadget.</p>
