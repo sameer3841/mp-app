@@ -37,16 +37,19 @@
   align-items: center;
   padding: .25rem;
   height: 100%;
+  
 }
 
 .navbar li.active {
   background-color: green;
   border-radius: 5px;
+  transition: 1s;
 }
 
 .navbar li:hover {
   background-color: #777;
   border-radius: 5px;
+  transition: 1s;
 }
 
 .container {
