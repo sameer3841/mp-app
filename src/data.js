@@ -25,7 +25,7 @@ export default [{
     },
     {
         "name": "Christine Pierre Charles",
-        "image": "./img.jpg",
+        "image": "./images/img.jpg",
         "about": "Hi! My name is Christine Pierre Charles, I am one of the group members for this project. My hobbies are drawing, coding, and gaming." 
     },
 ];
