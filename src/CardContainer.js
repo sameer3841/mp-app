@@ -6,7 +6,7 @@ import right from './right2.png'
 import Valery from './images/Valery.jpg'
 import Ceasar from './images/Ceasar.jpg'
 import Sameer from './images/sameer.jpg'
-import Brandon from './images/brandon.jpg'
+import Brandon from './images/Brandon.jpg'
 import Danielson from './images/Danielson.jpg'
 import IMG from './images/img.jpg'
 
@@ -29,17 +29,16 @@ export const CardContainer = () => {
 
     function getNextMember(){
         let temp = (index + 1) % data.length;
-        // if(temp >= data.length){
-        //     temp = 0;
-        // }
         setIndex(t => temp)
         changeCard();
     }
 
     function getPrevMember(){
-        let temp = index - 1;
-        if(temp < 0){
+        let temp = index;
+        if(temp - 1 < 0){
             temp = data.length-1;
+        } else  {
+            temp = index - 1;
         }
         setIndex(t => temp)
         changeCard();
