@@ -1,18 +1,44 @@
-.container {
-    background-color: rgb(58, 66, 74);
-    width: 55%;
+div.containerHome {
+    background-color: rgb(71, 81, 91);
+    max-width: 55%;
     margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
+    
+}
+div.containerHome2 {
+    background-color: rgb(71, 81, 91);
+    max-width: 55%;
+    margin-right: auto;
+
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 125px;
 }
 
 .text {  
     margin-left: auto;
     margin-right: auto;
     color: whitesmoke;
+    padding: 10px;
     margin-top: 10px;
     
+}
+
+
+
+.picarimg {
+    width: 40%;
+    float: left;
+}
+
+.turretimg {
+    width: 40%;
+    float: right;
+    margin-top: 125px;
+}
+
+.head {
+    font-weight:900;
 }
