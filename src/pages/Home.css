@@ -11,10 +11,11 @@ div.containerHome2 {
     background-color: rgb(71, 81, 91);
     max-width: 55%;
     margin-right: auto;
-
+    float: right;
+    clear:left;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 125px;
+    margin-top: 40px;
 }
 
 .text {  
@@ -31,12 +32,14 @@ div.containerHome2 {
 .picarimg {
     width: 40%;
     float: left;
+    clear: right
 }
 
 .turretimg {
     width: 40%;
     float: right;
-    margin-top: 125px;
+    clear:left;
+    margin-top: 40px;
 }
 
 .head {
