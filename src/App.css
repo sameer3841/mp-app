@@ -68,7 +68,7 @@
   width: 60%; /* Increased width */
   padding: 40px; /* Increased padding */
   border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
   text-align: center; /* Center text */
   min-width: 500px;
 }
