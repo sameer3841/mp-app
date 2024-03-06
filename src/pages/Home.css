@@ -1,3 +1,38 @@
+ul.li {
+    list-style-type: square;
+    align-items: flex-start;
+    
+}
+
+.list {
+    margin-top: 30px;
+    background-color: rgb(141, 160, 179);
+    max-width: 30%;
+    border-radius: 10px;
+    
+}
+.material {
+    float: right;
+    padding: 30px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.tools {
+    float: left;
+    clear: left;
+    width: 50%;
+    padding: 80px;
+    margin-right: 20px;
+}
+
+.listing {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+}
+
+
 div.containerHome {
     background-color: rgb(71, 81, 91);
     max-width: 55%;
@@ -7,14 +42,25 @@ div.containerHome {
     margin-top: 20px;
     
 }
+
+div.morecontainer{
+    background-color: rgb(71, 81, 91);
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 div.containerHome2 {
     background-color: rgb(71, 81, 91);
     max-width: 55%;
     margin-right: auto;
-
+    float: left;
+    clear:left;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 125px;
+    margin-top: 40px;
 }
 
 .text {  
@@ -23,7 +69,6 @@ div.containerHome2 {
     color: whitesmoke;
     padding: 10px;
     margin-top: 10px;
-    
 }
 
 
@@ -31,12 +76,14 @@ div.containerHome2 {
 .picarimg {
     width: 40%;
     float: left;
+    clear: right
 }
 
 .turretimg {
     width: 40%;
     float: right;
-    margin-top: 125px;
+    clear:left;
+    margin-top: 40px;
 }
 
 .head {
