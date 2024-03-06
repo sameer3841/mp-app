@@ -4,26 +4,36 @@ ul.li {
     
 }
 
+.listing{
+    display : flex;
+    flex-direction : row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .list {
     margin-top: 30px;
     background-color: rgb(141, 160, 179);
-    max-width: 30%;
     border-radius: 10px;
     
 }
 div.material {
+    margin-right: 20px;
     float: right;
     padding: 30px;
     width: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: table-row;
 }
 
 div.tools {
+    margin-left: 20px;
     float: left;
     clear: left;
     width: 50%;
     padding: 81px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: table-row;
 }
 
 .listing {
