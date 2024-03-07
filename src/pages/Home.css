@@ -1,39 +1,38 @@
-ul.li {
-    list-style-type: square;
-    align-items: flex-start;
-    
+ul {
+    margin-top: 10px;
+    padding-left: 50px;
 }
 
 .listing{
     display : flex;
     flex-direction : row;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .list {
     margin-top: 30px;
     background-color: rgb(141, 160, 179);
     border-radius: 10px;
-    
+    width: 50%;
+    display: table-row;
 }
+
 div.material {
     margin-right: 20px;
     float: right;
     padding: 30px;
-    width: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    display: table-row;
 }
 
 div.tools {
     margin-left: 20px;
     float: left;
     clear: left;
-    width: 50%;
-    padding: 81px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    display: table-row;
+    padding: 30px;
+}
+
+div.tools > ul {
+    padding: 50px;
 }
 
 .listing {
@@ -41,7 +40,6 @@ div.tools {
     margin-left: auto;
     padding: 50px;
 }
-
 
 div.containerHome {
     background-color: rgb(71, 81, 91);
@@ -64,6 +62,7 @@ div.morecontainer{
     margin-top: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
 div.containerHome2 {
     background-color: rgb(71, 81, 91);
     max-width: 55%;
@@ -83,8 +82,6 @@ div.containerHome2 {
     padding: 10px;
     margin-top: 10px;
 }
-
-
 
 .picarimg {
     width: 40%;
