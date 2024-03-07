@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Contact } from '../components/Contact';
 
 export const More = () => {
   return (
@@ -35,6 +36,8 @@ export const More = () => {
           </ul>
         </div>
         </div>
+        <Contact/>
+        
     </div>
   )
 }
