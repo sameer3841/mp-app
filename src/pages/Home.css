@@ -3,9 +3,9 @@ ul {
     padding-left: 50px;
 }
 
-.listing{
-    display : flex;
-    flex-direction : row;
+.listing {
+    display: flex;
+    flex-direction: row;
 }
 
 .list {
@@ -31,7 +31,7 @@ div.tools {
     padding: 30px;
 }
 
-div.tools > ul {
+div.tools>ul {
     padding: 50px;
 }
 
@@ -49,10 +49,10 @@ div.containerHome {
     border-radius: 10px;
     margin-top: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    
+
 }
 
-div.morecontainer{
+div.morecontainer {
     background-color: rgb(71, 81, 91);
     max-width: 55%;
     margin-left: auto;
@@ -68,14 +68,14 @@ div.containerHome2 {
     max-width: 55%;
     margin-right: auto;
     float: left;
-    clear:left;
+    clear: left;
     padding: 20px;
     border-radius: 10px;
     margin-top: 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.text {  
+.text {
     margin-left: auto;
     margin-right: auto;
     color: whitesmoke;
@@ -92,10 +92,36 @@ div.containerHome2 {
 .turretimg {
     width: 40%;
     float: right;
-    clear:left;
+    clear: left;
     margin-top: 40px;
 }
 
 .head {
-    font-weight:900;
+    font-weight: 900;
 }
+
+/* Home.css */
+
+.material,
+.tools {
+  margin-bottom: 20px;
+}
+
+.material h1,
+.tools h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.material ul,
+.tools ul {
+  list-style-type: none;
+}
+
+.material li,
+.tools li {
+  margin-bottom: 8px;
+  padding: 4px 6px;
+}
+

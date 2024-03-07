@@ -12,7 +12,8 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Adjusted alignment */
+  align-items: center;
+  /* Adjusted alignment */
   gap: 2rem;
   padding: 0 1rem;
   height: 80px;
@@ -37,7 +38,7 @@
   align-items: center;
   padding: .25rem;
   height: 100%;
-  
+
 }
 
 .navbar li.active {
@@ -60,16 +61,22 @@
 .about--container {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .about--section {
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-  width: 60%; /* Increased width */
-  padding: 40px; /* Increased padding */
-  border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
-  text-align: center; /* Center text */
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Semi-transparent background */
+  width: 60%;
+  /* Increased width */
+  padding: 40px;
+  /* Increased padding */
+  border-radius: 20px;
+  /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  /* Shadow effect */
+  text-align: center;
+  /* Center text */
   min-width: 500px;
 }
 
@@ -88,10 +95,10 @@
   flex-direction: column;
   width: 400px;
   height: 450px;
-  overflow:scroll;
+  overflow: scroll;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .card--image {
@@ -103,12 +110,12 @@
   object-fit: cover;
 }
 
-.card--name > span,
-.card--description > span {
+.card--name>span,
+.card--description>span {
   font-weight: bold;
 }
 
-.card--description{
+.card--description {
   font-style: italic;
   font-size: small;
 }
@@ -120,27 +127,135 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  
+
   justify-self: center;
-  
-  
+
+
 }
 
 button {
   height: 55px;
 }
 
-.meet-our-team{
+.meet-our-team {
   margin-bottom: 20px;
   margin-top: 10px;
 }
 
-.card--name{
+.card--name {
   margin-bottom: 10px;
 }
 
-.card--description{
+.card--description {
   display: flex;
   width: 250px;
-  padding:  10px;
+  padding: 10px;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 16px;
+  border: 10px solid rgb(71, 81, 91);
+  background-color: rgb(71, 81, 91);
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 16px;
+  border: 10px solid rgb(71, 81, 91);
+  padding: 10px 10px 0px 0px;
+  background-color: rgb(71, 81, 91);
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+}
+
+input {
+  width: 90%;
+  height: 40px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 200);
+
+  &:focus {
+    border: 2px solid rgba(0, 206, 158, 1);
+  }
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background-color:rgba(0, 206, 158, 1);
+  color: white;
+  border: none;
+}
+
+textarea{
+  width: 90%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.form--description{
+  max-width: 40%;
+}
+
+.contact--header{
+  align-self: center;
+  border-bottom: 7px solid rgba(0, 206, 158, 1);
+  max-width: 50%;
+}
+
+.contact > h3{
+  padding-bottom: 40px;
+  align-self: center;
+  padding-top: 12px;
+  max-width: 50%;
+
+}
+
+.contact--info{
+  color: rgba(0, 206, 158, 1);
+  padding: 25px 0px 25px 0px;
+  max-width: 50%;
+
+
+}
+
+.contact--info > a{
+  text-decoration: none;
+  color: rgba(0, 206, 158, 1);
+  padding-left: 2px;
+}
+
+
+.contact--info > img{
+  height: 14px;
+  background-color: rgba(0, 206, 158, 1);
+}
+
+.contact-email--image{
+  max-width: 50%;
+}
+
+.form--image--container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+textarea:hover, input:hover{
+  cursor: pointer;
 }
