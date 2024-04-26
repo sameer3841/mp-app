@@ -61,9 +61,9 @@ export const CardContainer = () => {
   return (
     
     <div className='main--card--container'>
-        <button onClick={getPrevMember}><img src={left} height={50} width={50}></img></button>
+        <button className="button--about" onClick={getPrevMember}><img className="button--image" src={left} height={50} width={50}></img></button>
         <Card name={name} img={image} about={about}/>
-        <button onClick={getNextMember}><img src={right} height={50} width={50}></img></button>
+        <button className="button--about" onClick={getNextMember}><img className="button--image" src={right} height={50} width={50}></img></button>
     </div>
   )
 }
