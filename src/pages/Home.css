@@ -125,3 +125,51 @@ div.containerHome2 {
   padding: 4px 6px;
 }
 
+.final{
+    width:40%;
+    height: 600px;
+    margin-top: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    min-width: 500px;
+}
+
+div.containerHome3 {
+    background-color: rgb(71, 81, 91);
+    max-width: 55%;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+}
+
+div.final--container{
+    display: flex;
+    clear: both;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+div.concept--container{
+    display: flex;
+    clear: both;
+    align-items: center;
+
+    margin-right: 10%;
+}
+
+.concept{
+    width:40%;
+    height: 600px;
+    margin-top: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    min-width: 500px;
+}
+
+#finalImg {
+    margin-left: 20%;
+}
