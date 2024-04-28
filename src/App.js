@@ -9,7 +9,7 @@ import {Route, Routes} from 'react-router-dom'
 function App() {
 
   return (
-    <Router basename='/mp-app'>
+    
     <div className="App">
       <Navbar/>
       <div className='container'>
@@ -22,7 +22,7 @@ function App() {
       </div>
           
     </div>
-    </Router>
+    
   );
 }
 
