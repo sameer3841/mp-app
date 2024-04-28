@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mp-app/static/css/main.7fc2d64b.css",
+    "main.js": "/mp-app/static/js/main.f15cf5d5.js",
+    "static/js/592.db4d550d.chunk.js": "/mp-app/static/js/592.db4d550d.chunk.js",
+    "static/media/final.png": "/mp-app/static/media/final.10ea08140437a4eb1875.png",
+    "static/media/sameer.jpg": "/mp-app/static/media/sameer.7976c6f0f3868d2effd0.jpg",
+    "static/media/Valery.jpg": "/mp-app/static/media/Valery.748ba415b54e8406bf2a.jpg",
+    "static/media/Ceasar.jpg": "/mp-app/static/media/Ceasar.02637ddcd55ab9f0e5b0.jpg",
+    "static/media/left.png": "/mp-app/static/media/left.4ed36d6fed183edd5b89.png",
+    "static/media/right2.png": "/mp-app/static/media/right2.c82484a707f30da8c866.png",
+    "static/media/Picar.jpg": "/mp-app/static/media/Picar.9653225161d84a3664db.jpg",
+    "static/media/brandon.jpg": "/mp-app/static/media/brandon.6d2816406760dc109aaa.jpg",
+    "static/media/Danielson.jpg": "/mp-app/static/media/Danielson.8deae9c8a842c6d48ca0.jpg",
+    "static/media/turret.png": "/mp-app/static/media/turret.226f2eee65f0b2ddb364.png",
+    "static/media/Concept.jpg": "/mp-app/static/media/Concept.af2039a0f4c7d667fb96.jpg",
+    "static/media/sending_email.png": "/mp-app/static/media/sending_email.75641fda863f62b0e351.png",
+    "index.html": "/mp-app/index.html",
+    "static/media/linkedin.svg": "/mp-app/static/media/linkedin.900e51008ed84dc8ada923218fd8e423.svg",
+    "main.7fc2d64b.css.map": "/mp-app/static/css/main.7fc2d64b.css.map",
+    "main.f15cf5d5.js.map": "/mp-app/static/js/main.f15cf5d5.js.map",
+    "592.db4d550d.chunk.js.map": "/mp-app/static/js/592.db4d550d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fc2d64b.css",
+    "static/js/main.f15cf5d5.js"
+  ]
+}
