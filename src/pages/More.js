@@ -36,6 +36,11 @@ export const More = () => {
           </ul>
         </div>
         </div>
+        <div className='morecontainer'>
+          <h2 className='text head'>Unfortunate Issues</h2>
+          <p className='text para'>
+When our 3D printer ran dry, halting production of the picar's crane, we pivoted swiftly. Opting for a wood-based body, we sourced the necessary parts and crafted a sturdy, reliable crane. Surprisingly, it outperformed expectations, boasting seamless functionality and intuitive manual controls. This unexpected challenge spurred innovation, showcasing our team's adaptability and problem-solving prowess.</p>
+        </div>
         <Contact/>
         
     </div>

@@ -38,7 +38,7 @@ div.tools>ul {
 .listing {
     margin-right: auto;
     margin-left: auto;
-    padding: 50px;
+    padding: 30px;
 }
 
 div.containerHome {
@@ -61,6 +61,11 @@ div.morecontainer {
     border-radius: 10px;
     margin-top: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 33px;
+}
+
+div.morecontainer-1{
+    margin-bottom: 0px !important;
 }
 
 div.containerHome2 {
