@@ -2,7 +2,7 @@
   "homepage": "https://sameer3841.github.io/mp-app",
   "name": "mp-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
